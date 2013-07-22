@@ -1,0 +1,27 @@
+
+.success{
+border: none;
+}
+
+.alert {
+  border: 1px solid red;
+}
+
+h2{
+  text-align: center;
+}
+.small button{
+  radius: 10px;
+}
+.enter{
+  width: 100px;
+}
+
+.outline{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#checkbal, #savebal{
+  margin-bottom: 20px;
+}

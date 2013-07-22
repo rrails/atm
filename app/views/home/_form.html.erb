@@ -1,0 +1,28 @@
+<h1>Bank of WDI</h1>
+
+<%= form_for :post do |f| %>
+  <p>
+    <%= f.label :checkingbal %><br>
+    <%= f.text_field :checkingbal %>
+  </p>
+
+  <p>
+    <%= f.submit 'Deposit' , :id => 'checkdep'%>
+    <%= f.submit 'Withdrawal' , :id => 'checkwith'%>
+  </p>
+
+  <p>
+    <%= f.label :savingbal %><br>
+    <%= f.text_field :savingbal %>
+  </p>
+
+  <p>
+    <%= f.submit 'Deposit', :id => 'savdep' %>
+    <%= f.submit 'Withdrawal', :id => 'savwith' %>
+  </p>
+
+<% end %>
+
+%div.one= text_field_label 'checking'
+
+
